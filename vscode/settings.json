@@ -42,7 +42,6 @@
     "gitlens.views.compare.files.compact": false,
     "gitlens.views.search.files.compact": false,
     "gitlens.views.avatars": false,
-    "search.location": "panel",
     "editor.minimap.enabled": false,
     "gitlens.views.compare.avatars": false,
     "gitlens.views.repositories.avatars": false,
