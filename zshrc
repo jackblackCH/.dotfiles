@@ -11,21 +11,10 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="honukai"
 
-plugins=(git colored-man colorize  brew osx zsh-syntax-highlightning)
+plugins=(git colored-man colorize brew osx zsh-syntax-highlightning)
 
 # Custom
 . ~/.dotfiles/scripts/z.sh
 
 # Project Alias
-
-# System Alias
-alias dev='yarn run dev'
-alias ssha='ssh-add -K ~/.ssh/id_rsa'
 source $ZSH/oh-my-zsh.sh
-alias ls='ls -lsa'
-<<<<<<< HEAD
-=======
-
-# AXA
-alias fixnpm='curl -0 -L https://npmjs.com/install.sh | sudo sh'
->>>>>>> Add hyper js
