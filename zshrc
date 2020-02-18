@@ -23,3 +23,9 @@ alias dev='yarn run dev'
 alias ssha='ssh-add -K ~/.ssh/id_rsa'
 source $ZSH/oh-my-zsh.sh
 alias ls='ls -lsa'
+<<<<<<< HEAD
+=======
+
+# AXA
+alias fixnpm='curl -0 -L https://npmjs.com/install.sh | sudo sh'
+>>>>>>> Add hyper js
